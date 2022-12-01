@@ -67,10 +67,10 @@ To determine how many items a list has, use the len() method:
 To add an item to the end of the list, use the append() method:
 ## Remove Item
 There are several methods to remove items from a list:
-## The del keyword removes the specified index:
-## The pop() method removes the specified index, (or the last item if index is not specified):
-## The remove() method removes the specified item:
-## The clear() method empties the list:
+The del keyword removes the specified index:
+The pop() method removes the specified index, (or the last item if index is not specified):
+The remove() method removes the specified item:
+he clear() method empties the list:
 ## The list() Constructor
 It is also possible to use the list() constructor when creating a new list.
 ## Tuples
@@ -111,3 +111,36 @@ To add more than one item to a set use the update() method.
 ## Get the Length of a Set
 To determine how many items a set has, use the len() method.
 ## Remove Item
+To remove an item in a set, use the remove(), or the discard() method.
+## The set() Constructor
+It is also possible to use the set() constructor to make a set.
+## Dictionaries
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is unordered, changeable and does not allow duplicates.
+Dictionaries are written with curly brackets, and have keys and values:
+## Accessing Items
+You can access the items of a dictionary by referring to its key name, inside square brackets:
+There is also a method called get() that will give you the same result:
+## Change Values
+You can change the value of a specific item by referring to its key name:
+## Loop Through a Dictionary
+You can loop through a dictionary by using a for loop.
+When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
+## Check if Key Exists
+To determine if a specified key is present in a dictionary use the in keyword:
+## Dictionary Length
+To determine how many items (key-value pairs) a dictionary has, use the len() method.
+## Adding Items
+Adding an item to the dictionary is done by using a new index key and assigning a value to it:
+## Removing Items
+There are several methods to remove items from a dictionary:
+The pop() method removes the item with the specified key name:
+The popitem() method removes the last inserted item (in versions before 3.7, a random item is removed instead):
+The del keyword removes the item with the specified key name:
+The del keyword can also delete the dictionary completely:
+The clear() keyword empties the dictionary:
+## The dict() Constructor
+It is also possible to use the dict() constructor to make a new dictionary:
+## If ... Else
+If you want to execute a block of code if a certain condition is true, use the if statement:
+
